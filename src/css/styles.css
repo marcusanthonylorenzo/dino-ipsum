@@ -1,15 +1,49 @@
-
-@keyframes slidein {
-  from {
-    transform: translateX(100%);
-  }
-
-  to {
-    transform: translateX(0%);
-  }
-}
-
 img {
   width: 200px;
   height: 200px;
+  padding: 10px;
+  border-width: 8px;
+  border-style:ridge;
+  border-width: 10px;
+  border-radius: 10px;
+  border-radius: 50%;
+  border-color: rgb(224, 130, 236);
+  box-shadow: 0 20px 40px rgba(4, 0, 0, 0.19), 0 12px 12px rgba(72, 10, 10, 0.23);
   }
+  img:hover{
+    transform: scale(2.0) rotate(10deg);
+  }
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10vh;
+}
+
+form {
+  margin-top: 15vh;
+}
+
+body {
+  color:rgb(32, 142, 238);
+  text-align: center;
+  font-family: 'Righteous', cursive;
+  background-image: url("http://24.media.tumblr.com/c02faf5610752ab14459b8ba60136a56/tumblr_mjgeuytiGO1rkfq7so1_500.gif");
+  background-size: cover;
+  width:100%;
+  height:100%;
+
+}
+
+.stretch {
+    width:100%;
+    height:100%;
+}
+
+
+h4 {
+  font-size: 3em;
+  font-weight: 700;
+}
